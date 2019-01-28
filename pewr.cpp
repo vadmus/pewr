@@ -9,6 +9,8 @@
 #include <sstream>
 #include <stdint.h>
 #include <signal.h>
+#include <unistd.h>
+#include <string.h>
 
 #ifdef _WIN32
 //needed for chdir on windows
@@ -20,6 +22,7 @@
 #endif
 
 #include <fftw3.h>
+//#include <fftw3_mkl.h>
 
 #define NDEBUG
 #include "Array.h"

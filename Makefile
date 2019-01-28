@@ -3,6 +3,7 @@
 
 LDFLAGS		+= -lm
 OBJECTS		= pewr.o
+LDLIBS		= /usr/local/lib/libfftw3.a
 
 ifdef USE_FLOATS
 	CPPFLAGS	+= -DUSE_FLOATS
